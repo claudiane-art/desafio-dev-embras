@@ -1,0 +1,156 @@
+@import 'primeng/resources/themes/saga-blue/theme.css';
+@import 'primeng/resources/primeng.min.css';
+@import 'primeicons/primeicons.css';
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+}
+
+#text-element {
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1;
+    padding: 0;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: left;
+    margin-left: 100px;
+    color: #495057;
+}
+
+header {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-left: 235px;
+}
+
+header h3 {
+    font-family: 'Open Sans', sans-serif;
+    color: #495057;
+    margin-top: -30px;
+    margin-left: -600px;
+    bottom: -20px;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: flex; /* Utiliza flexbox */
+    justify-content: space-between; /* Espaça os itens */
+    position: relative; /* Adicionado para posicionamento da logo */
+    font-size: 25px;
+}
+
+label {
+    width: calc(100% - 50px);
+}
+
+header .close-button {
+    background: none;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 35px;
+    margin-top: 160px;
+    margin-right: -330px;
+    color: #495057;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.form-buttons input[type="submit"],
+.form-buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: calc(20% - 75px);
+    background-color: #4285F4;
+}
+
+.form-buttons input[type="submit"] {
+    background-color: #4285F4;
+    color: #fff;
+    font-weight: bold;
+}
+
+.form-buttons button {
+    background-color: #ffffff;
+    color: #000;
+    border: 1px solid var(--stroke, rgba(222, 226, 230, 1));
+    border-radius: 5px;
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-buttons button:hover {
+    background-color: #d0d0d0;
+}
+
+.form-buttons input[type="submit"]:hover {
+    background-color: #357ae8;
+}
+form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 25px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    margin-top: 150px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+}
+
+.form-group input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 350px
+}
+
+.form-buttons button, .form-buttons input[type="submit"] {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.form-buttons button {
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    color: #00000070;
+    flex: 1; /* Certifica que os botões ocupem a largura disponível */
+    margin-right: 10px; /* Espaçamento entre os botões */
+}
+
+.form-buttons input[type="submit"] {
+    background-color: #4285F4;
+    color: white;
+    flex: 1; /* Certifica que os botões ocupem a largura disponível */
+    margin-right: 10px; /* Espaçamento entre os botões */
+}

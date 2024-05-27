@@ -1,0 +1,117 @@
+@import "node_modules\primeicons\raw-svg";
+@import 'node_modules/primeng/resources/themes/saga-blue/theme.css';
+@import 'node_modules/primeng/resources/primeng.min.css';
+@import 'node_modules/primeicons/primeicons.css';
+
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('OpenSans-Regular.ttf') format('truetype');
+  }
+
+#text-element {
+    font-family: 'Open Sans', Arial, sans-serif;
+  }
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F5F5F5; /* Cor de fundo */
+    margin: 1;
+    padding: 0;
+    font-size: 16px;
+    line-height: 21.79px;
+    text-align: left;
+    margin-left: 100px;
+}
+
+header {
+    background-color: #F5F5F5;
+    padding: 10px 20px;
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    position: relative; /* Adicionado para posicionamento da logo */
+}
+
+header img.logo {
+    width: 180px; 
+    height: 64px; 
+    margin-top: 30px;
+    position: absolute; /* Posicionamento absoluto */
+    top: 10px; /* Distância do topo */
+    left: 10px; /* Distância da esquerda */
+}
+
+h1 {
+    color: #495057;
+    margin: 0;
+    margin-top: 150px;
+    font-weight: bold;
+}
+
+nav {
+    margin-left: auto; /* Adicionado para empurrar o nav para a direita */
+    margin-top: 150px;
+    width: calc(20% - 75px);
+}
+
+nav a {
+    color: #fff;
+    background-color: #4285F4; /* Adicionado para destaque */
+    padding: 10px 20px; /* Adicionado para melhor visual */
+    text-decoration: none;
+    border-radius: 4px; /* Bordas arredondadas */
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #42b3f4; /* Cor ao passar o mouse */
+}
+
+table {
+    width: calc(100% - 50px);
+    height: 20px;
+    border: 0px solid var(--stroke, rgba(222, 226, 230, 1));
+    border-collapse: collapse;
+    margin-top: 35px;
+    margin-right: 100px;
+    border-radius: 10px;
+    top: 216px;
+    left: 128px;
+    font-size: 1rem;
+}
+
+tr {
+    border: 1px solid #ddd;
+}
+
+th {
+    width: 25px;
+    height: 25px;
+    color: #495057;
+    opacity: 0px;
+    padding: 25px;
+    border: 0px solid #ddd;
+    text-align: left;
+    background: var(--table_header_beackground, rgba(245, 245, 245, 1));
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    color: #495057;
+    opacity: 0px;
+    padding: 25px;
+    border: 0px solid #ddd;
+    text-align: left;
+    background: var(--table_header_beackground, rgb(255, 255, 255));
+    font-size: 1rem;
+    border-radius: 10px;
+}
+
+td a a i.pi {
+    color: red;
+    font-size: 1.5rem; /* Tamanho do ícone */
+}
