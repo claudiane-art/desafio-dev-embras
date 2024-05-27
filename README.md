@@ -1,3 +1,4 @@
+[![NPM](https://img.shields.io/npm/l/react)](https://github.com/claudiane-art/desafio-dev-embras/blob/main/LICENSE) 
 # Índice
 
 - [Introdução](#1-introdução)
